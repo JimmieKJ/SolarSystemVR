@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{E3B5943F-A66A-4553-B77F-347EAA729B7B}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>CrossCompilerTool</RootNamespace>
+       <PlatformToolset>v140</PlatformToolset>
+       <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+       <TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat CrossCompilerTool Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat CrossCompilerTool Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat CrossCompilerTool Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Win32\CrossCompilerTool-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat CrossCompilerTool Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat CrossCompilerTool Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat CrossCompilerTool Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Win64\CrossCompilerTool-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat CrossCompilerTool Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat CrossCompilerTool Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat CrossCompilerTool Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Mac\CrossCompilerTool-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat CrossCompilerTool HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat CrossCompilerTool HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat CrossCompilerTool HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\HTML5\CrossCompilerTool-HTML5-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat CrossCompilerTool Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat CrossCompilerTool Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat CrossCompilerTool Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Win32\CrossCompilerTool.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat CrossCompilerTool Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat CrossCompilerTool Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat CrossCompilerTool Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Win64\CrossCompilerTool.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat CrossCompilerTool Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat CrossCompilerTool Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat CrossCompilerTool Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Mac\CrossCompilerTool</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat CrossCompilerTool HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat CrossCompilerTool HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat CrossCompilerTool HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\HTML5\CrossCompilerTool.exe</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Target.cs" />
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Build.cs" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerUtils.cpp" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CHECKS_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;USE_NEW_ASYNC_IO=0;ORIGINAL_FILE_NAME="CrossCompilerTool-CrossCompilerTool.lib";CROSSCOMPILERTOOL_API=;UE_ENABLE_ICU=0;WITH_DIRECTXMATH=0;CORE_API=;PROJECTS_API=;JSON_API=;SHADERCOMPILERCOMMON_API=;METALSHADERFORMAT_API=;SHADERFORMATOPENGL_API=;SHADERPREPROCESSOR_API=;SHADERCORE_API=;RHI_API=;RENDERCORE_API=;VULKANSHADERFORMAT_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Launch\Private;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\Apple\MetalShaderFormat\Private;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ShaderFormatOpenGL\Private;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ShaderCompilerCommon\Private;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\VulkanShaderFormat\Private;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\VulkanRHI\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Launch\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\CrossCompilerTool;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrossCompilerTool;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Internationalization;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Async;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Concurrency;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Containers;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Delegates;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\GenericPlatform;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\HAL;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Logging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Math;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Misc;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Modules;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\ProfilingDebugging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Serialization;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Serialization\Csv;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Stats;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Templates;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\UObject;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Windows;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Projects\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Projects\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\Projects;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Projects;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json\Public\Dom;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json\Public\Policies;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json\Public\Serialization;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\Json;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ShaderCompilerCommon\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\ShaderCompilerCommon;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ShaderCompilerCommon;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Apple\MetalRHI\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\MetalShaderFormat;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\Apple\MetalShaderFormat;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ShaderFormatOpenGL\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\ShaderFormatOpenGL;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ShaderFormatOpenGL;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ShaderPreprocessor\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\ShaderPreprocessor;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ShaderPreprocessor;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\ShaderCore\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\ShaderCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\ShaderCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\RHI\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\RHI;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\RHI;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\RenderCore\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\RenderCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\RenderCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\ThirdParty\hlslcc;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\CrossCompilerTool\Inc\VulkanShaderFormat;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\VulkanShaderFormat;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\ThirdParty\hlslcc\hlslcc\src\hlslcc_lib;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\Mac\ShaderCacheTool\ShaderCacheTool.Target.cs" />
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\Mac\ShaderCacheTool\ShaderCacheTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{D00906BB-AAD1-4218-BBFE-76B98FF86CF6}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\Mac\ShaderCacheTool\Private\ShaderCacheTool.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\Mac\ShaderCacheTool\Private\ShaderCacheTool.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

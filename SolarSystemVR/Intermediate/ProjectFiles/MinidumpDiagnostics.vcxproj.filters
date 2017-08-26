@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\MinidumpDiagnostics.Target.cs" />
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\MinidumpDiagnostics.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{8AB32826-1B08-4C58-A053-B0210AB17E71}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Private\MinidumpDiagnosticsApp.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\Mac">
+			<UniqueIdentifier>{60C38ECB-A4D9-4A08-A64C-BEC3FE207FB5}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Private\Mac\MinidumpDiagnosticsMainMac.cpp">
+			<Filter>Private\Mac</Filter>
+		</ClCompile >
+		<Filter Include="Private\Windows">
+			<UniqueIdentifier>{6EEB7939-BF12-44DD-8B2B-06627BB9DDCA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Private\Windows\MinidumpDiagnosticsMainWindows.cpp">
+			<Filter>Private\Windows</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{03ED0987-0BBE-4924-9B7B-94879F3BAA84}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Public\MinidumpDiagnosticsApp.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{CB16BAC3-881D-4398-A4C2-258A88B10DC5}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Resources\Windows">
+			<UniqueIdentifier>{A53B9CA5-DFA6-450A-B21E-53E22BDBFE53}</UniqueIdentifier>
+		</Filter>
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\Debug-PCLaunch-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\Debug-PCLaunch-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\PCLaunch-Win32.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\PCLaunch-Win64.manifest">
+			<Filter>Resources\Windows</Filter>
+		</Manifest >
+		<ResourceCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\CrashReporter\MinidumpDiagnostics\Resources\Windows\PCLaunch.rc">
+			<Filter>Resources\Windows</Filter>
+		</ResourceCompile >
+	</ItemGroup>
+</Project>

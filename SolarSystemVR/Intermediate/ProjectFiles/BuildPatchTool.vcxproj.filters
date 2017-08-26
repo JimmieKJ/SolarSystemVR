@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{2A58E7B0-1F0E-40C8-99E2-F02C74A675EF}</UniqueIdentifier>
+		</Filter>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Programs\BuildPatchTool\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Automation.cs" />
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\BuildPatchTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{D78FEB35-DE8B-4204-8A6A-DEA43CB64AEE}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Private\BuildPatchTool.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Private\PrivatePch.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Private\ToolMode.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<Filter Include="Private\ToolModes">
+			<UniqueIdentifier>{939FF109-3D09-4C45-A4B0-DED19CA9851B}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\CompactifyMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\DiffManifestMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\EnumerationMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\MergeManifestMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Private\ToolModes\PatchGenerationMode.cpp">
+			<Filter>Private\ToolModes</Filter>
+		</ClCompile >
+		<Filter Include="Public">
+			<UniqueIdentifier>{662FB093-2EFA-476F-8FFD-0E489F9CAC80}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Public\BuildPatchTool.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Public\Interfaces">
+			<UniqueIdentifier>{A300A53A-D083-4672-BFA8-180940EC4352}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Public\Interfaces\ToolMode.h">
+			<Filter>Public\Interfaces</Filter>
+		</ClInclude >
+		<Filter Include="Public\ToolModes">
+			<UniqueIdentifier>{B77DB5FA-C12E-44C4-BC0C-882FD77155BA}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\CompactifyMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\DiffManifestMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\EnumerationMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\MergeManifestMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\BuildPatchTool\Public\ToolModes\PatchGenerationMode.h">
+			<Filter>Public\ToolModes</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

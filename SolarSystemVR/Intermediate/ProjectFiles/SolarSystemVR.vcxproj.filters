@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\SolarSystemVR.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{40B935E3-8C64-41ED-9C60-18A45AB43096}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SolarSystemVR.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\SolarSystemVREditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{BCBE2E15-614E-4B8B-B7DA-0A0B40236989}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\SolarSystemVR">
+			<UniqueIdentifier>{8DA71D40-ADB0-4920-B417-5FD18FD96B6E}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\SolarSystemVR\SolarSystemVR.Build.cs">
+			<Filter>Source\SolarSystemVR</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\SolarSystemVR\SolarSystemVR.cpp">
+			<Filter>Source\SolarSystemVR</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SolarSystemVR\SolarSystemVR.h">
+			<Filter>Source\SolarSystemVR</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\SolarSystemVR\SolarSystemVRGameModeBase.cpp">
+			<Filter>Source\SolarSystemVR</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\SolarSystemVR\SolarSystemVRGameModeBase.h">
+			<Filter>Source\SolarSystemVR</Filter>
+		</ClInclude >
+		<Filter Include="Source\SolarSystemVR\Private">
+			<UniqueIdentifier>{719A72E9-2DB6-43B1-AB14-E134DA429BBB}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Source\SolarSystemVR\Private\MyCharacter.cpp">
+			<Filter>Source\SolarSystemVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SolarSystemVR\Private\MyPlayerController.cpp">
+			<Filter>Source\SolarSystemVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SolarSystemVR\Private\PawnMoveControl.cpp">
+			<Filter>Source\SolarSystemVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SolarSystemVR\Private\SocketActor.cpp">
+			<Filter>Source\SolarSystemVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SolarSystemVR\Private\StartTCPAsyncTask.cpp">
+			<Filter>Source\SolarSystemVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SolarSystemVR\Private\TCPClient.cpp">
+			<Filter>Source\SolarSystemVR\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Source\SolarSystemVR\Private\TCPConnection.cpp">
+			<Filter>Source\SolarSystemVR\Private</Filter>
+		</ClCompile >
+		<Filter Include="Source\SolarSystemVR\Public">
+			<UniqueIdentifier>{FD605A76-0C16-4421-840E-CA4E2BBA5FC3}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Source\SolarSystemVR\Public\MyCharacter.h">
+			<Filter>Source\SolarSystemVR\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SolarSystemVR\Public\MyPlayerController.h">
+			<Filter>Source\SolarSystemVR\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SolarSystemVR\Public\PawnMoveControl.h">
+			<Filter>Source\SolarSystemVR\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SolarSystemVR\Public\SocketActor.h">
+			<Filter>Source\SolarSystemVR\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SolarSystemVR\Public\StartTCPAsyncTask.h">
+			<Filter>Source\SolarSystemVR\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SolarSystemVR\Public\TCPClient.h">
+			<Filter>Source\SolarSystemVR\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Source\SolarSystemVR\Public\TCPConnection.h">
+			<Filter>Source\SolarSystemVR\Public</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

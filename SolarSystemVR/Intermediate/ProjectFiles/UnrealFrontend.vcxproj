@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="Debug_Program|Win32">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Debug_Program|x64">
+			<Configuration>Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|Win32">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Debug_Program|x64">
+			<Configuration>Mac_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|Win32">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Debug_Program|x64">
+			<Configuration>HTML5_Debug_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|Win32">
+			<Configuration>Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Program|x64">
+			<Configuration>Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|Win32">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Mac_Development_Program|x64">
+			<Configuration>Mac_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|Win32">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="HTML5_Development_Program|x64">
+			<Configuration>HTML5_Development_Program</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{28BB242F-FA40-40B4-AFD5-B09959B67678}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>UnrealFrontend</RootNamespace>
+       <PlatformToolset>v140</PlatformToolset>
+       <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+       <TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v140</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Win32\UnrealFrontend-Win32-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Win64\UnrealFrontend-Win64-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Mac\UnrealFrontend-Mac-Debug</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat UnrealFrontend HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat UnrealFrontend HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\HTML5\UnrealFrontend-HTML5-Debug.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Win32\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat UnrealFrontend Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Win64\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat UnrealFrontend Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat UnrealFrontend Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\Mac\UnrealFrontend</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Build.bat UnrealFrontend HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Rebuild.bat UnrealFrontend HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Build\BatchFiles\Clean.bat UnrealFrontend HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Binaries\HTML5\UnrealFrontend.exe</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Target.cs" />
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Programs\UnrealFrontend\Config\DefaultEngine.ini" />
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\UnrealFrontend.Build.cs" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendMain.h" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\UnrealFrontendPrivatePCH.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\DeployCommand.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchCommand.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\LaunchFromProfileCommand.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\PackageCommand.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsConvertCommand.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\StatsDumpMemoryCommand.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.cpp" />
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands\UserInterfaceCommand.h" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Linux\LinuxUnrealFrontendMain.cpp" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Mac\MacUnrealFrontendMain.cpp" />
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Windows\WindowsUnrealFrontendMain.cpp" />
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win32.manifest" />
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Resources\Windows\Debug-UnrealFrontend-Win64.manifest" />
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win32.manifest" />
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend-Win64.manifest" />
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.ico" />
+		<ResourceCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Resources\Windows\UnrealFrontend.rc" />
+	</ItemGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=1;WITH_LOGGING_TO_MEMORY=0;USE_CHECKS_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Program;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;USE_NEW_ASYNC_IO=0;ORIGINAL_FILE_NAME="UnrealFrontend.exe";UNREALFRONTEND_API=;AUTOMATIONCONTROLLER_API=;UE_ENABLE_ICU=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;DEVICEMANAGER_API=;TARGETDEVICESERVICES_API=;LAUNCHERSERVICES_API=;MESSAGING_API=;PROFILER_API=;INPUTCORE_API=;RHI_API=;RENDERCORE_API=;SLATE_API=;JSON_API=;WITH_FREETYPE=1;SLATECORE_API=;EDITORSTYLE_API=;PROFILERCLIENT_API=;PROFILERSERVICE_API=;DESKTOPPLATFORM_API=;PROJECTLAUNCHER_API=;TARGETPLATFORM_API=;PROJECTS_API=;SESSIONFRONTEND_API=;SESSIONSERVICES_API=;SOURCECODEACCESS_API=;SETTINGS_API=;STANDALONERENDERER_API=;VSACCESSOR_HAS_DTE=1;VISUALSTUDIOSOURCECODEACCESS_API=;NETWORKING_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;UDPMESSAGING_API=;TCPMESSAGING_API=;SLATE_REFLECTOR_HAS_SESSION_SERVICES=0;SLATE_REFLECTOR_HAS_DESKTOP_PLATFORM=1;SLATEREFLECTOR_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend\Private\Commands;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Launch\Private;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Launch\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\UnrealFrontend;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealFrontend;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\AutomationController\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\AutomationController\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\AutomationController;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\AutomationController;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Internationalization;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Async;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Concurrency;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Containers;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Delegates;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\GenericPlatform;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\HAL;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Logging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Math;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Misc;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Modules;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\ProfilingDebugging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Serialization;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Serialization\Csv;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Stats;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Templates;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\UObject;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core\Public\Windows;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Core;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\CoreUObject\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\CoreUObject\Public\Blueprint;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\CoreUObject\Public\Internationalization;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\CoreUObject\Public\Misc;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\CoreUObject\Public\Serialization;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\CoreUObject\Public\Templates;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\CoreUObject\Public\UObject;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\CoreUObject;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\CoreUObject;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\DeviceManager\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\DeviceManager\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\DeviceManager;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\DeviceManager;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\TargetDeviceServices\Classes;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\TargetDeviceServices\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\TargetDeviceServices\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\TargetDeviceServices;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\TargetDeviceServices;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\LauncherServices\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\LauncherServices\Public\Common;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\LauncherServices\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\LauncherServices;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\LauncherServices;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Messaging\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Messaging\Public\Deprecated;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Messaging\Public\Helpers;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Messaging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Messaging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\Profiler\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\Profiler\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Profiler;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\Profiler;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\InputCore\Classes;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\InputCore\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\InputCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\InputCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\RHI\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\RHI;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\RHI;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\RenderCore\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\RenderCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\RenderCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Application;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Commands;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Docking;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Layout;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Notifications;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Styling;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Text;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Text\Android;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Framework\Views;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Colors;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Docking;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Images;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Input;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Layout;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Text;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate\Public\Widgets\Views;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Slate;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Slate;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json\Public\Dom;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json\Public\Policies;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json\Public\Serialization;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Json;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Json;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Animation;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Application;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Brushes;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Fonts;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Input;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Layout;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Logging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Rendering;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Sound;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Stats;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Styling;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Textures;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Types;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore\Public\Widgets;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SlateCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SlateCore;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Editor\EditorStyle\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Editor\EditorStyle\Public\Classes;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Editor\EditorStyle\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\EditorStyle;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Editor\EditorStyle;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProfilerClient\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProfilerClient\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProfilerClient;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProfilerClient;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProfilerService\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProfilerService\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProfilerService;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProfilerService;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\DesktopPlatform\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\DesktopPlatform;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\DesktopPlatform;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProjectLauncher\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProjectLauncher\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\ProjectLauncher;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\ProjectLauncher;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\TargetPlatform\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\TargetPlatform\Public\Common;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\TargetPlatform\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\TargetPlatform;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\TargetPlatform;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Projects\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Projects\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Projects;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Projects;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\SessionFrontend\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SessionFrontend;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\SessionFrontend;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SessionServices\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SessionServices;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\SessionServices;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\SourceCodeAccess\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SourceCodeAccess;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\SourceCodeAccess;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\Settings\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Settings;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\Settings;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\StandaloneRenderer\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\StandaloneRenderer\Public\IOS;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\StandaloneRenderer;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\StandaloneRenderer;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Intermediate\Build\Win64\UnrealFrontend\Inc\VisualStudioSourceCodeAccess;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Plugins\Developer\VisualStudioSourceCodeAccess\Source\VisualStudioSourceCodeAccess;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Networking\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Networking\Public\Common;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Networking\Public\Interfaces;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Networking\Public\Interfaces\IPv4;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Networking\Public\Interfaces\Steam;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Networking;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Networking;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Sockets\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\Sockets;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Runtime\Sockets;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Plugins\Messaging\UdpMessaging\Intermediate\Build\Win64\UnrealFrontend\Inc\UdpMessaging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Plugins\Messaging\UdpMessaging\Source\UdpMessaging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Plugins\Messaging\TcpMessaging\Intermediate\Build\Win64\UnrealFrontend\Inc\TcpMessaging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Plugins\Messaging\TcpMessaging\Source\TcpMessaging;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\SlateReflector\Public;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Intermediate\Build\Win64\UnrealFrontend\Inc\SlateReflector;D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Developer\SlateReflector;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>

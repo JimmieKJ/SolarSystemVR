@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Target.cs" />
+		<Filter Include="Config">
+			<UniqueIdentifier>{3FDB0C0A-94EB-491A-8BC0-7EA82DC9392A}</UniqueIdentifier>
+		</Filter>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Programs\UnrealHeaderTool\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\UnrealHeaderTool.Build.cs" />
+		<Filter Include="Private">
+			<UniqueIdentifier>{F7755B1C-E2AA-4A11-B374-94BAC1586618}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\BaseParser.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\ClassDeclarationMetaData.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Classes.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\ClassMaps.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\CodeGenerator.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\FileLineException.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\GeneratedCodeVersion.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderParser.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\HeaderProvider.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\IScriptGeneratorPluginInterface.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Manifest.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\NativeClassExporter.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\ParserClass.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\ParserHelper.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Scope.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\SimplifiedParsingClassInfo.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\StringUtils.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealHeaderToolMain.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.cpp">
+			<Filter>Private</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealSourceFile.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UnrealTypeDefinitionInfo.h">
+			<Filter>Private</Filter>
+		</ClInclude >
+		<Filter Include="Private\Specifiers">
+			<UniqueIdentifier>{7CFFEA52-EB63-4728-B30C-674C52A26458}</UniqueIdentifier>
+		</Filter>
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.def">
+			<Filter>Private\Specifiers</Filter>
+		</None >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\CheckedMetadataSpecifiers.h">
+			<Filter>Private\Specifiers</Filter>
+		</ClInclude >
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.def">
+			<Filter>Private\Specifiers</Filter>
+		</None >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\FunctionSpecifiers.h">
+			<Filter>Private\Specifiers</Filter>
+		</ClInclude >
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.def">
+			<Filter>Private\Specifiers</Filter>
+		</None >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\InterfaceSpecifiers.h">
+			<Filter>Private\Specifiers</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\SpecifierArrays.cpp">
+			<Filter>Private\Specifiers</Filter>
+		</ClCompile >
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.def">
+			<Filter>Private\Specifiers</Filter>
+		</None >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\StructSpecifiers.h">
+			<Filter>Private\Specifiers</Filter>
+		</ClInclude >
+		<None Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.def">
+			<Filter>Private\Specifiers</Filter>
+		</None >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\Specifiers\VariableSpecifiers.h">
+			<Filter>Private\Specifiers</Filter>
+		</ClInclude >
+		<Filter Include="Private\UHTMakefile">
+			<UniqueIdentifier>{F1547B62-AF93-4D1D-8121-961CCB3C5367}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ClassArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ClassArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ClassMetaDataArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ClassMetaDataArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\CompilerMetadataManagerArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\CompilerMetadataManagerArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\EnumArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\EnumArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FieldArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FieldArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FileScopeArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FileScopeArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FunctionArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\FunctionArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\HeaderProviderArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\HeaderProviderArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ImplementedInterfaceArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ImplementedInterfaceArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MakefileHelpers.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MetadataArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MetadataArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MultipleInheritanceBaseClassArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\MultipleInheritanceBaseClassArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\NameArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\NameArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ObjectBaseArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ObjectBaseArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PackageArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PackageArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyBaseArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyBaseArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyDataArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\PropertyDataArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\RepRecordArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\RepRecordArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ScopeArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ScopeArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ScriptStructArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\ScriptStructArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructDataArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructDataArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructScopeArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\StructScopeArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TokenArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TokenArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TokenDataArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TokenDataArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TypeDefinitionInfoMapArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\TypeDefinitionInfoMapArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefile.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefile.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefileHeaderDescriptor.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefileHeaderDescriptor.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefileModuleDescriptor.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UHTMakefileModuleDescriptor.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<ClCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UnrealSourceFileArchiveProxy.cpp">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClCompile >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Private\UHTMakefile\UnrealSourceFileArchiveProxy.h">
+			<Filter>Private\UHTMakefile</Filter>
+		</ClInclude >
+		<Filter Include="Public">
+			<UniqueIdentifier>{BC3E383E-FC76-402B-B436-C19305981417}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Public\UnrealHeaderTool.h">
+			<Filter>Public</Filter>
+		</ClInclude >
+		<Filter Include="Resources">
+			<UniqueIdentifier>{B9C20358-BDA5-4F04-84A0-71CAA02EBA0D}</UniqueIdentifier>
+		</Filter>
+		<ResourceCompile Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Resources\PCLaunch.rc">
+			<Filter>Resources</Filter>
+		</ResourceCompile >
+		<Manifest Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging.manifest">
+			<Filter>Resources</Filter>
+		</Manifest >
+		<Filter Include="Resources\UHTDebugging">
+			<UniqueIdentifier>{E87E7EE1-5FDF-44AD-973D-700DC019F621}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\EnumOnlyHeader.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\StructOnlyHeader.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestDeprecatedObject.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterface.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestInterfaceObject.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+		<ClInclude Include="D:\Work\UE_sourceCode\ue414Change\UnrealEngineGitHub\Engine\Source\Programs\UnrealHeaderTool\Resources\UHTDebugging\TestObject.h">
+			<Filter>Resources\UHTDebugging</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
